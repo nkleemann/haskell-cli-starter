@@ -3,7 +3,6 @@
 A very basic starting point for command line applications with Haskell.
 
 No external libraries, no build scripts, no cabal, no stack - just compile and run.
-
 Check out the comments in the source files to find out how everything works.
 
 See [scalez](https://github.com/nkleemann/scalez) as an example.
@@ -67,3 +66,10 @@ own types and data accordingly.
 
 You can safely remove the brackets when you just use flags as switches
 without any data.
+
+### I need more complex parsing
+
+If you want more complex parsing (f.e. switching positions of flags) please use
+another bolder library such as: [parseargs](https://hackage.haskell.org/package/parseargs). 
+
+This starter will be kept as simple and small as possible.
