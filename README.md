@@ -46,7 +46,6 @@ Example:
 
 ```
 handleArgs :: (Maybe String, Flag) -> IO ()
-handleArgs :: (Maybe String, Flag)
     handleArgs args =
         case args of
         [Just userName, Greet] -> greetTheUserWith userName
